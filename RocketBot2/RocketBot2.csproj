@@ -236,9 +236,6 @@
     <Reference Include="WebDriver.Support, Version=3.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>$(SolutionDir)\packages\Selenium.Support.3.6.0\lib\net40\WebDriver.Support.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>$(SolutionDir)\packages\System.Net.Http.4.3.3\lib\net46\System.Net.Http.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib" />
   </ItemGroup>
   <ItemGroup>
@@ -1101,11 +1098,11 @@
       <Project>{0739e40d-c589-4aeb-93e5-ee8cd6773c60}</Project>
       <Name>PoGo.NecroBot.Logic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\POGOLib\POGOLib.Official.Google\POGOLib.Official.Google.csproj">
+    <ProjectReference Include="$(SolutionDir)\POGOLib\POGOLib.Official.Google\POGOLib.Official.Google.csproj">
       <Project>{a9b97ece-2ea8-472a-96d7-20fd0081c153}</Project>
       <Name>POGOLib.Official.Google</Name>
     </ProjectReference>
-    <ProjectReference Include="..\POGOLib\POGOLib.Official\POGOLib.Official.csproj">
+    <ProjectReference Include="$(SolutionDir)\POGOLib\POGOLib.Official\POGOLib.Official.csproj">
       <Project>{9b636d12-00a4-4473-b6d4-0194c3ad9614}</Project>
       <Name>POGOLib.Official</Name>
     </ProjectReference>
