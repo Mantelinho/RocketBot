@@ -2,6 +2,10 @@
 	path = POGOProtos
 	url = https://github.com/TheUnnamedOrganisation/POGOProtos.git
 	branch = pogolib_integration
+[submodule "POGOLib"]
+	path = POGOLib
+	url = https://github.com/Furtif/POGOLib.git
+	branch = pogolib_integration
 [submodule "FeroxRev"]
 	path = FeroxRev
 	url = https://github.com/TheUnnamedOrganisation/FeroxRev.git
