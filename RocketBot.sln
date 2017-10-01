@@ -6,13 +6,17 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketBot2", "RocketBot2\RocketBot2.csproj", "{42B07AE9-E643-4212-A7DB-0611F9059670}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0739E40D-C589-4AEB-93E5-EE8CD6773C60} = {0739E40D-C589-4AEB-93E5-EE8CD6773C60}
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614} = {9B636D12-00A4-4473-B6D4-0194C3AD9614}
 		{05D2DA44-1B8E-4CF7-94ED-4D52451CD095} = {05D2DA44-1B8E-4CF7-94ED-4D52451CD095}
 		{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB} = {A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153} = {A9B97ECE-2EA8-472A-96D7-20FD0081C153}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonGo.RocketAPI", "FeroxRev\PokemonGo.RocketAPI.csproj", "{05D2DA44-1B8E-4CF7-94ED-4D52451CD095}"
 	ProjectSection(ProjectDependencies) = postProject
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614} = {9B636D12-00A4-4473-B6D4-0194C3AD9614}
 		{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB} = {A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153} = {A9B97ECE-2EA8-472A-96D7-20FD0081C153}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoGo.NecroBot.Logic", "PoGo.NecroBot.Logic\PoGo.NecroBot.Logic.csproj", "{0739E40D-C589-4AEB-93E5-EE8CD6773C60}"
@@ -22,6 +26,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoGo.NecroBot.Logic", "PoGo
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POGOProtos", "POGOProtos\POGOProtos.csproj", "{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POGOLib.Official", "POGOLib\POGOLib.Official\POGOLib.Official.csproj", "{9B636D12-00A4-4473-B6D4-0194C3AD9614}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB} = {A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POGOLib.Official.Google", "POGOLib\POGOLib.Official.Google\POGOLib.Official.Google.csproj", "{A9B97ECE-2EA8-472A-96D7-20FD0081C153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,12 +92,36 @@ Global
 		{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}.Release|x64.Build.0 = Release|Any CPU
 		{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}.Release|x86.ActiveCfg = Release|Any CPU
 		{A03A7BB2-4F0B-467B-84B2-9A76E6AAE6FB}.Release|x86.Build.0 = Release|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Debug|x64.Build.0 = Debug|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Debug|x86.Build.0 = Debug|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Release|x64.ActiveCfg = Release|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Release|x64.Build.0 = Release|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Release|x86.ActiveCfg = Release|Any CPU
+		{9B636D12-00A4-4473-B6D4-0194C3AD9614}.Release|x86.Build.0 = Release|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Release|x64.Build.0 = Release|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9B97ECE-2EA8-472A-96D7-20FD0081C153}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
 		SolutionGuid = {608D3480-BB40-4C03-ADB7-AFB92CA085B6}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
 	EndGlobalSection
 EndGlobal
